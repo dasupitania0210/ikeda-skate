@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>池田市スケートボード協会</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #fff;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background-color: #f9f9f9;
+      border-bottom: 1px solid #eee;
+    }
+    nav a {
+      text-decoration: none;
+      color: #007acc;
+      padding: 15px 20px;
+      display: block;
+    }
+    nav a:hover {
+      background-color: #e0f0ff;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      border-left: 5px solid #007acc;
+      padding-left: 10px;
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+      border-top: 1px solid #eee;
+    }
+    @media (max-width: 600px) {
+      nav a {
+        padding: 10px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>池田市スケートボード協会</h1>
+    <p>地域に根ざしたスケートボード文化の発展を目指して</p>
+  </header>
+
+  <nav>
+    <a href="#about">概要</a>
+    <a href="#activities">活動紹介</a>
+    <a href="#events">イベント情報</a>
+    <a href="#sponsors">共産企業</a>
+  </nav>
+
+  <section id="about">
+    <h2>概要</h2>
+    <p>池田市スケートボード協会は、地域におけるスケートボードの健全な普及と発展を目的に設立されました。初心者から上級者まで、誰もが楽しめる環境作りを推進しています。</p>
+  </section>
+
+  <section id="activities">
+    <h2>活動紹介</h2>
+    <p>定期的な練習会や安全講習会の開催、パーク整備活動、地域イベントへの参加など、さまざまな取り組みを行っています。</p>
+  </section>
+
+  <section id="events">
+    <h2>イベント情報</h2>
+    <p>次回のスケートボードイベントは7月に予定しています。詳細は近日中に公開予定です。</p>
+  </section>
+
+  <section id="sponsors">
+    <h2>共産企業</h2>
+    <ul>
+      <li>○○スポーツ</li>
+      <li>△△建設</li>
+      <li>□□コーヒー</li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2025 池田市スケートボード協会. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
